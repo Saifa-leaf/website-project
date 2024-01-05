@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 4em 1em 1em 1em;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    background-color: rgb(92, 158, 223);
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    padding: 10px 120px; /* Adjust padding for better aesthetics */
+    text-decoration: none;
+    border: 2px solid white; /* Add a border for a button-like appearance */
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(40, 123, 206);
+}
+
+.login {
+    background-color: darkgray;
+    padding: 10px;
+}
+
+.login h3 {
+    /* margin: 0 0 18px 0; */
+}

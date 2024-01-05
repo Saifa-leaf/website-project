@@ -1,0 +1,108 @@
+<!DOCTYPE html5>
+<html>
+    <head lang="en">
+        <link rel="stylesheet" href="./cssStyle/style.css">
+        <title>Sample website</title>
+    </head>
+
+    <body>
+        <nav>
+            <a href="#top">home</a>
+            <a href="https://theuselessweb.com/">experimental</a>
+            <a href="https://www.linkedin.com/in/saifa-leechitcham/">about me</a>
+            <a href="">contract</a>
+        </nav>
+        
+        <header id="top">
+            <h2>Welcome to my sample website</h2>
+            <p>
+                This was created as a test after I learn HTML and CSS online. A lot on this website will include
+                different website layout and aspect of it.
+            </p>
+        </header>
+
+        <div class="login">
+            <h3 id="loginIntro">Login Here</h3>
+            <form action="./login info/info.txt" method="post">
+                <label for="User">Username:</label>
+                <input type="text" name="user" value="username here">
+                <br>
+                <label for="Pass">Password:</label>
+                <input type="text" name="pass" value="password here" pattern="[0-9]+" title="must be number">
+                <br><br>
+                <input type="submit" value="login">
+            </form>
+        </div>
+
+        <div class="showWeb">
+            <h3>The website mention</h3>
+            <iframe src="./web_project.html"><a href="./web_project.html"></a></iframe>
+            <p>will recursively display website after learning javascript</p>
+        </div>
+
+        <div class="sale">
+            <h3>On sale!</h3>
+
+            <div id="item1">
+                <img src="./image/fin_donut.png" alt="donut">
+                <p>$10.00</p>
+                <p>Buy now</p>
+            </div>
+            <div id="item2">
+                <img src="./image/house.png" alt="house">
+                <p>$10000000.00</p>
+                <s>Buy now</s>
+            </div>
+        </div>
+
+        <div class="read">
+            <h3>Recipe for a Basic Website</h3>
+            <p>
+                <p>Ingredients:</p>
+
+                HTML (Hypertext Markup Language): The foundation of your website. <br>
+                CSS (Cascading Style Sheets): To add style and design. <br>
+                JavaScript: For interactive elements and enhanced functionality. <br>
+                Text Editor: Like VSCode, Sublime Text, or Atom. <br>
+                Web Browser: To preview your website. <br><br>
+                <p>Instructions: </p>
+                <ol>
+                    <li>
+                        <p>Set Up Your Workspace </p>
+                        <p>
+                            Open your text editor. 
+                            Create a new folder for your project. 
+                            Inside the folder, create three files: index.html, style.css, and script.js. 
+                        </p>
+                    </li>
+                    <li>
+                        Write the HTML (The Base Layer). 
+                        Open index.html in your text editor.
+                        Use the basic structure of HTML:
+                        <img src="./image/2tutorial.jpg" alt="HTML starting code">
+                    </li>
+                    <li>
+                        Add Style with CSS.
+                        Open style.css.
+                        Start with basic styling: <br>
+                        <img src="./image/3tutorial.jpg" alt="CSS starting code">
+                    </li>
+                    <li>
+                        Make it Interactive with JavaScript.
+                        Open script.js.
+                        Add a simple script to start
+                    </li>
+                    <li>
+                        Fill in Your Content
+                        Go back to index.html.
+                        Add your content between the <body> tags. 
+                        Check this website in developer mode to see the body section.
+                    </li>
+                </ol>
+            </p>
+        </div>
+
+
+
+    </body>
+</html>
