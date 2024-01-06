@@ -1,6 +1,7 @@
 <!DOCTYPE html5>
 <html>
     <head lang="en">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./cssStyle/style.css">
         <title>Sample website</title>
     </head>
@@ -21,37 +22,49 @@
             </p>
         </header>
 
-        <div class="login">
-            <h3 id="loginIntro">Login Here</h3>
-            <form action="./login info/info.txt" method="post">
-                <label for="User">Username:</label>
-                <input type="text" name="user" value="username here">
-                <br>
-                <label for="Pass">Password:</label>
-                <input type="text" name="pass" value="password here" pattern="[0-9]+" title="must be number">
-                <br><br>
-                <input type="submit" value="login">
-            </form>
+        <div class="loginBackground">
+            <img src="./image/Nature.webp">
+            <div class="login">
+                <h3 id="loginIntro">Login Here</h3>
+                <form action="./login info/info.txt" method="post">
+                    <label for="User">Username: </label>
+                    <input type="text" name="user" value="username here">
+                    <br>
+                    <label for="Pass">Password: </label>
+                    <input type="text" name="pass" value="password here" pattern="[0-9]+" title="must be number">
+                    <br><br>
+                    <input type="submit" value="login">
+                </form>
+            </div>
         </div>
 
         <div class="showWeb">
-            <h3>The website mention</h3>
-            <iframe src="./web_project.html"><a href="./web_project.html"></a></iframe>
-            <p>will recursively display website after learning javascript</p>
+            <div class="showWebPara">
+                <h3>The website mention</h3>
+                <p>will recursively display website after learning javascript. And fixed the nav tab later.</p>
+            </div>
+            <div class="showWebRecur">
+                <iframe src="./web_project.html"><a href="./web_project.html"></a></iframe>
+            </div>
         </div>
 
         <div class="sale">
-            <h3>On sale!</h3>
-
-            <div id="item1">
-                <img src="./image/fin_donut.png" alt="donut">
-                <p>$10.00</p>
-                <p>Buy now</p>
+            <div class="saleText">
+                <h3>On sale!</h3>
             </div>
-            <div id="item2">
-                <img src="./image/house.png" alt="house">
-                <p>$10000000.00</p>
-                <s>Buy now</s>
+            <div class="saleItem">
+                <div id="item1">
+                    <h5>A donut</h5>
+                    <img src="./image/fin_donut.png" alt="donut">
+                    <p>$10.00</p>
+                    <button type="button">Buy now</button>
+                </div>
+                <div id="item2">
+                    <h5>A house</h5>
+                    <img src="./image/house.png" alt="house">
+                    <p>$10000000.00</p>
+                    <button type="button" disabled><s>Buy now</s></button>
+                </div>
             </div>
         </div>
 

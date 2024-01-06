@@ -20,6 +20,7 @@ nav {
     width: 100%;
     padding: 3px;
     text-align: center;
+    z-index: 1;
 }
 
 nav a {
@@ -34,11 +35,74 @@ nav a:hover {
     background-color: rgb(40, 123, 206);
 }
 
-.login {
-    background-color: darkgray;
-    padding: 10px;
+.loginBackground {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
 }
 
-.login h3 {
-    /* margin: 0 0 18px 0; */
+.loginBackground img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 10;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+}
+
+.showWeb {
+    display: flex;
+    justify-content: space-between;
+    height: 75%;
+    background-color: #bdbdbd;
+    padding: 10px 0px;
+}
+
+.showWebPara {
+    width: 33%;
+    text-align: center;
+}
+
+.showWebRecur {
+    width: 67%;
+}
+
+.showWebRecur iframe {
+    width: 100%;
+    height: 100%; /* Set the height as needed */
+}
+
+.saleItem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 20;
+}
+
+.saleText {
+    text-align: center;
+    color: red;
+    font-size: 28;
+}
+
+.sale img {
+    width: 600px; /* Adjust the width of the images */
+    max-width: 100%; /* Ensure images don't exceed their original size */
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
