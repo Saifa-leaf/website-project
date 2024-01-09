@@ -25,9 +25,9 @@ nav {
 
 nav a {
     display: block;
-    padding: 10px 120px; /* Adjust padding for better aesthetics */
+    padding: 10px 120px;
     text-decoration: none;
-    border: 2px solid white; /* Add a border for a button-like appearance */
+    border: 2px solid white;
     border-radius: 10px;
 }
 
@@ -82,7 +82,7 @@ nav a:hover {
 
 .showWebRecur iframe {
     width: 100%;
-    height: 100%; /* Set the height as needed */
+    height: 100%;
 }
 
 .sale {
@@ -104,7 +104,7 @@ nav a:hover {
 
 .saleText h3 {
     color: black;
-    position: relative; /* Ensure the text appears on top of the image */
+    position: relative;
     padding: 20px;
     margin: 0px;
     text-align: center;
@@ -123,8 +123,8 @@ nav a:hover {
 }
 
 .saleItem img {
-    width: 600px; /* Adjust the width of the images */
-    max-width: 100%; /* Ensure images don't exceed their original size */
+    width: 600px;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
