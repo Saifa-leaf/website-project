@@ -68,7 +68,7 @@ nav a:hover {
     justify-content: space-between;
     height: 75%;
     background-color: #bdbdbd;
-    padding: 10px 0px;
+    padding: 15px 0px;
 }
 
 .showWebPara {
@@ -85,6 +85,11 @@ nav a:hover {
     height: 100%; /* Set the height as needed */
 }
 
+.sale {
+    padding: 0px 0px 10px 0px;
+
+}
+
 .saleItem{
     display: flex;
     justify-content: space-around;
@@ -94,15 +99,74 @@ nav a:hover {
 }
 
 .saleText {
-    text-align: center;
-    color: red;
-    font-size: 28;
+    position: relative;
 }
 
-.sale img {
+.saleText h3 {
+    color: black;
+    position: relative; /* Ensure the text appears on top of the image */
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    font-size: 40;
+    font-family: 'Lemon', Arial;
+}
+
+.saleText img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.saleItem img {
     width: 600px; /* Adjust the width of the images */
     max-width: 100%; /* Ensure images don't exceed their original size */
     height: auto;
     display: block;
     margin: 0 auto;
+    background-color: #fff;
+}
+
+.recipe {
+    border: 5px dotted #a3a3a3;
+    border-radius: 5px;
+    background-color: #fffeaf;
+    padding: 0px 0px 0px 10px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.recipe img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+footer {
+    background-color: rgb(92, 158, 223);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.info {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    font-size: 14px;
+    margin-bottom: 10px;
 }
